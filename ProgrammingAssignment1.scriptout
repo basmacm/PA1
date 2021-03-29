@@ -1,0 +1,60 @@
+Script started on Thu 11 Feb 2021 01:24:53 AM CST
+]2;cslinux2.utdallas.edu:/home/012/b/bc/bcm180002/Homework/Assignment_1[?1034h{cslinux2:~/Homework/Assignment_1} ll
+total 136
+drwx--x--x 2 bcm180002 sn   80 Feb 11 01:24 .
+drwx--x--x 4 bcm180002 sn   55 Feb 11 01:03 ..
+-rw------- 1 bcm180002 sn 3937 Feb 11 01:17 parseURL.cpp
+-rw------- 1 bcm180002 sn    0 Feb 11 01:24 ProgrammingAssignment1.scriptout
+]2;cslinux2.utdallas.edu:/home/012/b/bc/bcm180002/Homework/Assignment_1{cslinux2:~/Homework/Assignment_1} g++ parseURL.cpp -o URLPaar[K[Krser.cs2
+]2;cslinux2.utdallas.edu:/home/012/b/bc/bcm180002/Homework/Assignment_1{cslinux2:~/Homework/Assignment_1} ll
+total 232
+drwx--x--x 2 bcm180002 sn   111 Feb 11 01:35 .
+drwx--x--x 4 bcm180002 sn    55 Feb 11 01:03 ..
+-rw------- 1 bcm180002 sn  3937 Feb 11 01:17 parseURL.cpp
+-rw------- 1 bcm180002 sn     0 Feb 11 01:24 ProgrammingAssignment1.scriptout
+-rwx--x--x 1 bcm180002 sn 18664 Feb 11 01:35 URLParser.cs2
+]2;cslinux2.utdallas.edu:/home/012/b/bc/bcm180002/Homework/Assignment_1{cslinux2:~/Homework/Assignment_1} ./URLParser.cs2 
+Please type a full URL here
+https://cs.utdallas.edu:80/directory/faculty/people.html?name=Robert
+Protocol:   https
+Domain:   cs.utdallas.edu
+Port:   80
+File path:   directory/faculty/people.html
+Parameters:   name=Robert
+]2;cslinux2.utdallas.edu:/home/012/b/bc/bcm180002/Homework/Assignment_1{cslinux2:~/Homework/Assignment_1} ftp://hello.popcorn.biz:80/faculty/index.htmll[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[28P./URLParser.cs2 
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+Please type a full URL here
+ftp://hello.popcorn.biz:80/faculty/index.html
+Protocol:   ftp
+Domain:   hello.popcorn.biz
+Port:   80
+File path:   faculty/index.html
+Parameters:   
+]2;cslinux2.utdallas.edu:/home/012/b/bc/bcm180002/Homework/Assignment_1{cslinux2:~/Homework/Assignment_1} ./URLParser.cs2 
+Please type a full URL here
+ftps://hello.world.gov:504/school/college.htm?name=Basma
+Protocol:   ftps
+Domain:   hello.world.gov
+Port:   504
+File path:   school/college.htm
+Parameters:   name=Basma
+]2;cslinux2.utdallas.edu:/home/012/b/bc/bcm180002/Homework/Assignment_1{cslinux2:~/Homework/Assignment_1} ./URLParser.cs2 
+Please type a full URL here
+tps://cs.utdallas.edu:100000/directory/faculty/people.html?name=Robert
+Invalid URL with following erroneous components:
+Protocol:  tps is an invalid protocol
+Port:   100000 port number must be between 1 and 65535
+]2;cslinux2.utdallas.edu:/home/012/b/bc/bcm180002/Homework/Assignment_1{cslinux2:~/Homework/Assignment_1} ./URLParser.cs2 
+Please type a full URL here
+www://cs.utdallas.edu:80/directory/faculty/people.html?name=Robert
+Invalid URL with following erroneous components:
+Protocol:  www is an invalid protocol
+]2;cslinux2.utdallas.edu:/home/012/b/bc/bcm180002/Homework/Assignment_1{cslinux2:~/Homework/Assignment_1} ./URLParser.cs2 
+Please type a full URL here
+https://cs.utdallas.xx:80/directory/faculty/people.html?name=Robert
+Invalid URL with following erroneous components:
+Domain:   cs.utdallas.xx is an invalid domain
+]2;cslinux2.utdallas.edu:/home/012/b/bc/bcm180002/Homework/Assignment_1{cslinux2:~/Homework/Assignment_1} exit
+exit
+
+Script done on Thu 11 Feb 2021 01:38:57 AM CST
